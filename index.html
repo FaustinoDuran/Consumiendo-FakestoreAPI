@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <form class="search-form">
+                <input type="text" class="search-input" name="buscar" placeholder="Buscar...">
+                <button  class="search-button">Buscar</button>
+                
+            </form>
+        </div>
+    </header>
+
+    <div class="content">
+        <h3>Resultados: <span class="result-count"></span></h3>
+        
+        
+        <template id="result-item-template">
+            <div class="result-item">
+                <img src="" alt="" class="result-item-img">
+                <div class="result-item-content">
+                    <h5 class="item-result-title"></h5>
+                    <p class="result-item-condition"></p>
+                    <p class="result-item-sell-count">Vendidos: <span class="result-item-sell-count-num"></span></p>
+                </div>
+                <div class="result-item-price">
+                    <p></p>
+                </div>
+            </div>
+        </template>
+    
+        
+        <div class="results">
+            
+        </div>        
+    </div>
+
+
+
+
+
+</body>
+</html>
